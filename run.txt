@@ -1,0 +1,6 @@
+Cài node -> m? vscode -> npm init –y -> npm install express
+npm install nodemon -> npm install ejs
+Thêm "start": "nodemon index.js", | vào "script" trong package.json
+npm run start
+Scan: Install thu vi?n aws-sdk: npm install aws-sdk
+Update: npm install multer
