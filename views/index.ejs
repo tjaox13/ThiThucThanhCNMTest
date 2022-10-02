@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="content">
+        <table border="1">
+            <tr>
+                <th>Ma SP</th>
+                <th>Ten SP</th>
+                <th>So Luong</th>
+                <th>Hinh Anh</th>
+                <th>Chon</th>
+            </tr>
+            <% for (let i=0; i< sanPhams.length; i++) { %>
+                <tr>
+                    <td><%=sanPhams[i].ma_sp%></td>
+                    <td><%=sanPhams[i].ten_sp%></td>
+                    <td><%=sanPhams[i].soLuong_sp%></td>
+                </tr>
+            <% } %>
+        </table>
+    </div>
+    
+</body>
+</html>
